@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Elizaveta </title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;600&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin="" />
+   <link rel="stylesheet" href="css/leaflet.css">
+   <link rel="stylesheet" href="css/air-datepicker.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <header class="header">
+         <!-- <p class="test">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, et!
+            </p> -->
+         <nav class="menu">
+            <button class="burger__btn burger__btn-line">
+               <span class="burger-span"></span>
+            </button>
+            <div class="btnUp">&uarr;</div>
+            <ul class="menu__list  ">
+               <li class="menu__list-item">
+                  <a href="#" class="menu__link menu__link--big menu__link-active">
+                     all shelters
+                  </a>
+               </li>
+               <li class="menu__list-inner">
+                  <ul class="menu__list-box">
+                     <li class="menu__list-item">
+                        <a href="#" class="menu__link ">
+                           Articles
+                        </a>
+                     </li>
+                     <li class="menu__list-item">
+                        <a href="#" class="menu__link ">
+                           already adopted
+                        </a>
+                     </li>
+                  </ul>
+                  <ul class="menu__list-box">
+                     <li class="menu__list-item">
+                        <a href="#donate" class="menu__link ">
+                           donate
+                        </a>
+                     </li>
+                     <li class="menu__list-item">
+                        <a href="#adobt" class="menu__link ">
+                           adoption guide
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu__list-item">
+                  <a href="#contacts" class="menu__link menu__link--big ">
+                     contacts
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="animals">
+            <div class="container">
+               <h1 class="title-animal">
+                  Adopt Cyprus pets
+               </h1>
+               <div class="block-animals">
+                  <ul class="animals__items">
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/1.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/2.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/3.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/4.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/5.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/1.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/2.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                     <li class="animals__item">
+                        <div class="item-box">
+                           <img src="images/3.png" alt="" class="item-img">
+                           <p class="text">
+                              Naira, in Paws
+                           </p>
+                           <p class="text">
+                              Paphos Shelter
+                           </p>
+                           <span class="arrows">→</span>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="animals__btn-box">
+                  <button class="animals__btn">
+                     check out all the shelters
+                  </button>
+               </div>
+               <div class="animals__description">
+                  Shelters must re-home as many dogs and cats as possible to keep functioning on a daily basis. If you
+                  feel you can give a home to one of our deserving residents, please click on the adoption button.
+               </div>
+               <div class="animals__numbers">
+                  <div class=" animals__number-block">
+                     <div class="animals__number">
+                        24
+                     </div>
+                     <div class="animals__info">
+                        Shelters in Cyprus
+                     </div>
+                  </div>
+                  <div class="animals__number-block">
+                     <div class="animals__number">
+                        200 000
+                     </div>
+                     <div class="animals__info">
+                        Homeless dogs
+                     </div>
+                  </div>
+                  <div class="animals__number-block">
+                     <div class="animals__number">
+                        1 000 000
+                     </div>
+                     <div class="animals__info">
+                        Homeless cats
+                     </div>
+                  </div>
+               </div>
+               <div class="btn-adopt-block" id="adobt">
+                  <button class=" btn-adopt">
+                     adopt
+                  </button>
+               </div>
+            </div>
+         </section>
+
+         <section class="adopt">
+            <div class="container">
+               <div class="adopt__title-box">
+                  <h2 class="adopt__title">
+                     How do I adopt?
+                  </h2>
+                  <p class="adopt__text">
+                     For any questions regarding adoption you may contact us whenever you wish.
+                  </p>
+               </div>
+               <div class="manual">
+                  <div class="manual__items">
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           1
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Please, make sure all the family members give consent to the planned adoption.
+                        </div>
+                     </div>
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           2
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Pick a pet in our catalogue. Look for the one and only.
+                        </div>
+                     </div>
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           3
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Contact a shelter directly. Arrange to meet your future pet. It could be a video call.
+                        </div>
+                     </div>
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           4
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Complete the necessary adoption paperwork. Shelters want to make sure the new family will
+                           provide a good home.
+                        </div>
+                     </div>
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           5
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Have an interview with shelter staff. When you want to adopt a pet from a shelter, they want
+                           to verify that you will give that pet a good and lasting home.
+                        </div>
+                     </div>
+                     <div class="manual__item">
+                        <div class="manual__number">
+                           6
+                           <p class="manual__dot">.</p>
+                        </div>
+                        <div class="manual__text">
+                           Re-register the microchip. Most of the shelter dogs come with a microchip installed. Make
+                           sure you put it in your name.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+
+
+         <div class="map__cyprus">
+            <div class="container">
+               <h2 class="cyprus__header">
+               </h2>
+            </div>
+            <div class="map__checked map__cyprus-checked">
+               Check out all the shelters
+            </div>
+            <!-- <div id="map" style="  height:600px;"></div> -->
+         </div>
+
+
+
+
+         <div class="donate-page">
+            <!-- <div class="map">
+               <div class="map__inner">
+                  <div class="map__checked">
+                     Check out all the shelters
+                  </div>
+               </div>
+            </div> -->
+            <div class="donate">
+               <div class="donate__content">
+                  <p class="text-left">
+                     We put together all the shelters in Cyprus and we make sure that all the dogs in those shelters get
+                     an
+                     equal chance to get adopted.
+                  </p>
+                  <p class="text-right">
+                     We exist solelyon raising funds,your donations and sponsorship. This page was made by volunteers.
+                  </p>
+               </div>
+            </div>
+            <div class="donate__button" id="donate">
+               <button class="btn-adopt  donate__btn ">
+                  donate
+               </button>
+            </div>
+            <div class="donate__info">
+               Your chance to change the world
+            </div>
+         </div>
+
+
+         <div class="dogs__images">
+            <div class="container">
+               <img src="images/dogs-at-sea.jpg" alt="" class="dogs__img">
+            </div>
+         </div>
+
+
+         <div class="faq">
+            <div class="faq__inner  ">
+               <div class="faq__text">
+                  Any other questions?
+                  Consult FAQs.
+                  <img src="images/icons/wavy-line.svg" alt="wavy-line" class="img__wave">
+
+               </div>
+
+               <div class="faq__images" id="contacts">
+                  <img src="images/dog-cat.svg" alt="" class="faq__img">
+               </div>
+               <form action="send.php" method="POST" class="form">
+                  <div class="form__inner">
+                     <input type="text" class="faq__input" placeholder="Enter your email" name="email">
+                     <button type="submit" class="btn__submit">Subscribe</button>
+                     <!-- <input type="submit" class="btn__submit"> -->
+                  </div>
+               </form>
+               <div class="stories">
+                  <div class="stories-text">
+                     News. Stories of adoption. Happiness.
+                  </div>
+               </div>
+            </div>
+
+            <div class="overley">
+               <div class="modal" id="thanks">
+                  <div class="modal__close">&times;</div>
+                  <div class="modal__subtitle">Спасибо!</div>
+                  <div class="modal__description">Ваше сообщение отправлено.</div>
+                  <!-- <div class="btn__modal-inner">
+                     <button type="submit" class="btn__modal-close">Отправить</button>
+                  </div> -->
+               </div>
+            </div>
+            <!-- <button class="tech-btn">Tech</button> -->
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+
+
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+               <nav class="menu__footer">
+                  <ul class="footer__menu-list">
+                     <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">
+                           About
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">
+                           Contacts
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">
+                           Sponsors
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">
+                           Adoption guide
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="footer__social">
+                  <ul class="social__list">
+                     <li class="social__item">
+                        <a href="" class="social__link">
+                           <img src="images/icons/social-vk.svg" alt="vk" class="social__img">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="" class="social__link">
+                           <img src="images/icons/social-fb.svg" alt="fb" class="social__img">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="" class="social__link">
+                           <img src="images/icons/social-inst.svg" alt="inst" class="social__img">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="" class="social__link">
+                           <img src="images/icons/social-whatsap.svg" alt="whatsap" class="social__img">
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+
+
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+   <script src="js/leaflet.js"></script>
+   <script src="js/leaflet-providers.js"></script>
+   <script src="js/air-datepicker.js"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/map.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
